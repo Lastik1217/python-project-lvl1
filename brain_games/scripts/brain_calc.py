@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 from brain_games.cli import a
-from brain_games.games.cli_calc import ask_a_question
+from brain_games.games.cli_calc import calc
 
 def main():
-    print(ask_a_question()) 
+    print(calc()) 
 
 
 if __name__ == '__main__':
