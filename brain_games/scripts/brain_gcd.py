@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 from brain_games.cli import a
-
+from brain_games.games.cli_gcd import gcd
 
 def main():
-    return 
+    print(gcd()) 
 
 
 if __name__ == '__main__':
