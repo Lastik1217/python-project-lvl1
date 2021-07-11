@@ -7,4 +7,6 @@ def welcome_user():
     name = prompt.string('May I have your name? ')
     print('hello, {}!'.format(name))
     return name
+
+
 a = welcome_user()

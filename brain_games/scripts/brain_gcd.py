@@ -2,8 +2,9 @@
 from brain_games.cli import a
 from brain_games.games.cli_gcd import gcd
 
+
 def main():
-    print(gcd()) 
+    print(gcd())
 
 
 if __name__ == '__main__':

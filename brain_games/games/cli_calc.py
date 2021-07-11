@@ -3,6 +3,7 @@ import random
 import operator
 from brain_games.cli import a
 
+
 def calc():
     print('What is the result of the expression?')
     operation_sign = \
@@ -25,7 +26,7 @@ def calc():
             print('Correct!')
         else:
             return(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{result}'.\n Let's try again, {a}!")
+                 f"Correct answer was '{result}'.\nLet's try again, {a}!")
             break
         if count == 3:
             return('Congratulations,' + a + '!')
