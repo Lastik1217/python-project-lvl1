@@ -2,7 +2,7 @@ name: Linter Check
 on: [push]
 jobs:
   linter-check1:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
