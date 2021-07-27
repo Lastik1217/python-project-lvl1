@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-from brain_games.cli import a
-from brain_games.games.cli_progression import prog
+from brain_games.welcome_cli import name
+from brain_games.games.cli_progression import play_progress
 
 
 def main():
-    print(prog())
+    print(play_progress())
 
 
 if __name__ == '__main__':

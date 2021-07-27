@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 import random
 import operator
-from brain_games.cli import a
+from brain_games.welcome_cli import name
+from brain_games.engine import count_games
 
 
-def calc():
+def play_calc():
     print('What is the result of the expression?')
     operation_sign = \
         {'+': operator.add,
@@ -12,7 +13,7 @@ def calc():
          '*': operator.mul,
          }
     count = 0
-    while count != 3:
+    while count != count_games:
         number_1 = random.randint(1, 10)
         number_2 = random.randint(1, 10)
         actions = list(operation_sign.keys())
@@ -26,7 +27,7 @@ def calc():
             print('Correct!')
         else:
             return(f"'{answer}' is wrong answer ;(. "
-                 f"Correct answer was '{result}'.\nLet's try again, {a}!")
+                 f"Correct answer was '{result}'.\nLet's try again, {name}!")
             break
-        if count == 3:
-            return('Congratulations,' + a + '!')
+        if count == count_games:
+            return('Congratulations,' + name + '!')

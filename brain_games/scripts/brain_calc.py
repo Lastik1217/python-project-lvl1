@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-from brain_games.cli import a
-from brain_games.games.cli_calc import calc
+from brain_games.welcome_cli import name
+from brain_games.games.cli_calc import play_calc
 
 
 def main():
-    print(calc())
+    print(play_calc())
 
 
 if __name__ == '__main__':

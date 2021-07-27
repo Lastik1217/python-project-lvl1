@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 from random import randint
-from brain_games.cli import a
+from brain_games.welcome_cli import name
+from brain_games.engine import count_games
 
 
-def ask_a_question():
+def play_even():
     count = 0
     print('Answer "yes" if the number is even, otherwise answer "no"')
-    while count != 3:
+    while count != count_games:
         x = randint(0, 50)
         if x % 2 == 0:
             cor_ans = "'yes'"
@@ -19,7 +20,7 @@ def ask_a_question():
             print('Correct!')
         else:
             return(f"'{ans}' is wrong answer ;(. "
-                  f"Correct answer was '{cor_ans}'.\n Let's try again, {a}!")
+                  f"Correct answer was '{cor_ans}'.\n Let's try again, {name}!")
             break
-        if count == 3:
-            return("Congratulations, " + a + "!")
+        if count == count_games:
+            return("Congratulations, " + name + "!")

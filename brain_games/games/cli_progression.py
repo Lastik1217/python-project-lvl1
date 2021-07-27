@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 import prompt
 from random import randint
-from brain_games.cli import a
+from brain_games.welcome_cli import name
+from brain_games.engine import count_games
 
 
-def prog():
+def play_progress():
     print('What number is missing in the progression?')
     count = 0
-    while count != 3:
+    while count != count_games:
         question = ''
         long_progr = randint(5, 10)
         min_prog = randint(1, 20)
@@ -27,7 +28,7 @@ def prog():
             count += 1
         else:
             return(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct}'.\n Let's try again, {a}!")
+                  f"Correct answer was '{correct}'.\n Let's try again, {name}!")
             break
-        if count == 3:
-            return("Congratulations, " + a + "!")
+        if count == count_games:
+            return("Congratulations, " + name + "!")
