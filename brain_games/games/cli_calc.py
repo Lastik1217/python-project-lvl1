@@ -27,7 +27,7 @@ def play_calc():
             print('Correct!')
         else:
             return(f"'{answer}' is wrong answer ;(. "
-                 f"Correct answer was '{result}'.\nLet's try again, {name}!")
+                   f"Correct answer was '{result}'.\nLet's try again, {name}!")
             break
         if count == count_games:
             return('Congratulations,' + name + '!')

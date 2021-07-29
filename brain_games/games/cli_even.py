@@ -20,7 +20,7 @@ def play_even():
             print('Correct!')
         else:
             return(f"'{ans}' is wrong answer ;(. "
-                  f"Correct answer was '{cor_ans}'.\n Let's try again, {name}!")
+                   f"Correct answer was '{cor_ans}'.\nLet's try again, {name}!")
             break
         if count == count_games:
             return("Congratulations, " + name + "!")

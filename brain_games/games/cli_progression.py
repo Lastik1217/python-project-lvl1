@@ -17,18 +17,18 @@ def play_progress():
         for count_p in range(long_progr):
             min_prog = min_prog + step
             if count_p == mask:
-                correct = min_prog
+                corr = min_prog
                 question = question + ' ..'
             else:
                 question = question + ' ' + str(min_prog)
         print('Question:' + question)
         answer = prompt.integer('Your answer: ')
-        if answer == correct:
+        if answer == corr:
             print('Correct!')
             count += 1
         else:
             return(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct}'.\n Let's try again, {name}!")
+                   f"Correct answer was '{corr}'.\n Let's try again, {name}!")
             break
         if count == count_games:
             return("Congratulations, " + name + "!")

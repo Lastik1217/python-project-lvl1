@@ -16,16 +16,16 @@ def play_prime():
             if question % i == 0:
                 x = x + 1
         if (x <= 0):
-            correct = 'yes'
+            corr = 'yes'
         else:
-            correct = 'no'
+            corr = 'no'
         answer = prompt.string('Your answer: ')
-        if answer == correct:
+        if answer == corr:
             print('Correct!')
             count += 1
         else:
             return(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct}'.\n Let's try again, {name}!")
+                   f"Correct answer was '{corr}'.\n Let's try again, {name}!")
             break
         if count == count_games:
             return("Congratulations, " + name + "!")

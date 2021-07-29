@@ -24,7 +24,7 @@ def play_gcd():
             print('Correct!')
         else:
             return(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{nod}'.\n Let's try again, {name}!")
+                   f"Correct answer was '{nod}'.\n Let's try again, {name}!")
             break
         if count == count_games:
             return("Congratulations, " + name + "!")
