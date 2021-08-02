@@ -10,14 +10,23 @@
 [![asciicast](https://asciinema.org/a/xLrWRskWQNStoQuf28zYxob8O.svg)](https://asciinema.org/a/xLrWRskWQNStoQuf28zYxob8O)
 ## There are five differrent minigames in my program
 
-\begin{table}[]
-\begin{tabular}{|l|l|}
-\hline
-game        & difficulty \\ \hline
-even        & 1          \\ \hline
-calc        & 4          \\ \hline
-progression & 3          \\ \hline
-gcd         & 10         \\ \hline
-prime       & 4          \\ \hline
-\end{tabular}
-\end{table}
+| game        | difficulty |
+|-------------|------------|
+| even        | 1          |
+| calc        | 4          |
+| progression | 3          |
+| gcd         | 10         |
+| prime       | 4          |
+
+##Brain-even
+[![asciicast](https://asciinema.org/a/4qZ8gQSEnlyU7ug3LPZdrWqb3.svg)](https://asciinema.org/a/4qZ8gQSEnlyU7ug3LPZdrWqb3)
+##Brain-calc
+[![asciicast](https://asciinema.org/a/sJPzWq48dCAtvhhnQMaS9Z265.svg)](https://asciinema.org/a/sJPzWq48dCAtvhhnQMaS9Z265)
+##Brain-progression
+[![asciicast](https://asciinema.org/a/3HLZDhqz4tXNEOI2UoXn2NhgM.svg)](https://asciinema.org/a/3HLZDhqz4tXNEOI2UoXn2NhgM)
+##Brain-gcd
+[![asciicast](https://asciinema.org/a/u2pd0UqL81olC4Qh7Rim0Uruz.svg)](https://asciinema.org/a/u2pd0UqL81olC4Qh7Rim0Uruz)
+##Brain-prime
+[![asciicast](https://asciinema.org/a/tnLM4gAJlLbqjQGjHjrSQbgnp.svg)](https://asciinema.org/a/tnLM4gAJlLbqjQGjHjrSQbgnp)
+
+#Thnx for playing my games, I belive that you liked them!
