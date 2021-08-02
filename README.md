@@ -5,9 +5,9 @@
 
 ![example workflow](https://github.com/Lastik1217/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)
 
-###Welcome to my game, I worked on it for long sleepless nights, do not judge me as harshly as linter wemakepythonstyle, please!###
+# Welcome to my game, I worked on it for long sleepless nights, do not judge me as harshly as linter wemakepythonstyle, please! #
 
-###Geeting is a very importatn thing, sooo... write down eour name use "branin-games" in your terminal and nice to meet you here!###
+## Geeting is a very importatn thing, sooo... write down eour name use "branin-games" in your terminal and nice to meet you here! ##
 
 [![asciicast](https://asciinema.org/a/xLrWRskWQNStoQuf28zYxob8O.svg)](https://asciinema.org/a/xLrWRskWQNStoQuf28zYxob8O)
 
@@ -25,19 +25,19 @@
 
 [![asciicast](https://asciinema.org/a/4qZ8gQSEnlyU7ug3LPZdrWqb3.svg)](https://asciinema.org/a/4qZ8gQSEnlyU7ug3LPZdrWqb3)
 
-###Brain-calc###
+### Brain-calc ###
 [![asciicast](https://asciinema.org/a/sJPzWq48dCAtvhhnQMaS9Z265.svg)](https://asciinema.org/a/sJPzWq48dCAtvhhnQMaS9Z265)
 
-###Brain-progression
+### Brain-progression ###
 
 [![asciicast](https://asciinema.org/a/3HLZDhqz4tXNEOI2UoXn2NhgM.svg)](https://asciinema.org/a/3HLZDhqz4tXNEOI2UoXn2NhgM)
 
-###Brain-gcd###
+### Brain-gcd ###
 
 [![asciicast](https://asciinema.org/a/u2pd0UqL81olC4Qh7Rim0Uruz.svg)](https://asciinema.org/a/u2pd0UqL81olC4Qh7Rim0Uruz)
 
-###Brain-prime###
+### Brain-prime ###
 
 [![asciicast](https://asciinema.org/a/tnLM4gAJlLbqjQGjHjrSQbgnp.svg)](https://asciinema.org/a/tnLM4gAJlLbqjQGjHjrSQbgnp)
 
-###Thnx for playing my games, I belive that you liked them!###
+### Thnx for playing my games, I belive that you liked them! ###
