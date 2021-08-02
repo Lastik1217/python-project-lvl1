@@ -40,4 +40,4 @@
 
 [![asciicast](https://asciinema.org/a/tnLM4gAJlLbqjQGjHjrSQbgnp.svg)](https://asciinema.org/a/tnLM4gAJlLbqjQGjHjrSQbgnp)
 
-### Thnx for playing my games, I belive that you liked them! ###
+# Thnx for playing my games, I belive that you liked them! #
