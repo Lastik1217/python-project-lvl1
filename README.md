@@ -21,7 +21,7 @@
 | gcd         | 10         |
 | prime       | 4          |
 
-###Brain-even###
+### Brain-even ###
 
 [![asciicast](https://asciinema.org/a/4qZ8gQSEnlyU7ug3LPZdrWqb3.svg)](https://asciinema.org/a/4qZ8gQSEnlyU7ug3LPZdrWqb3)
 
